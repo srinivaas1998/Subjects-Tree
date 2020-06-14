@@ -2,17 +2,17 @@ ul, #myUL {
   list-style-type: none;
 }
 
-/* Remove margins and padding from the parent ul */
+
 #myUL {
   margin: 0;
   padding: 0;
 }
 .sub {
   cursor: pointer;
-  user-select: none; /* Prevent text selection */
+  user-select: none;
 }
 
-/* Create the caret/arrow with a unicode, and style it */
+
 .sub::before {
   content: "\25B6";
   color: black;
@@ -20,20 +20,16 @@ ul, #myUL {
   margin-right: 6px;
 }
 
-/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
-/*.sub-down::before {
-  transform: rotate(90deg);
-}
-*/
 
 
-/* Style the caret/arrow */
+
+
 .sub1{
   cursor: pointer;
-  user-select: none; /* Prevent text selection */
+  user-select: none; 
 }
 
-/* Create the caret/arrow with a unicode, and style it */
+
 .sub1::before {
   content: "\25B6";
   color: black;
@@ -41,16 +37,11 @@ ul, #myUL {
   margin-right: 6px;
 }
 
-/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
-/*.sub1-down::before {
-  transform: rotate(90deg);
-}*/
+
 .sub2{
   cursor: pointer;
-  user-select: none; /* Prevent text selection */
+  user-select: none;
 }
-
-/* Create the caret/arrow with a unicode, and style it */
 .sub2::before {
   content: "\25B6";
   color: black;
@@ -58,16 +49,10 @@ ul, #myUL {
   margin-right: 6px;
 }
 
-/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
-/*.sub2-down::before {
-  transform: rotate(90deg);
-}
-/* Hide the nested list */
 .nested {
   display: none;
 }
 
-/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
 .active {
   display: block;
 }
